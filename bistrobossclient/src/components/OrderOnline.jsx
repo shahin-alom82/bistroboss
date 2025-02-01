@@ -17,7 +17,7 @@ const OrderOnline = () => {
             <div className='mt-10'>
                   <Container>
                         <SectionTitle
-                              topHeading={"--- From 11:00 AM to 10:00 PM ---"}
+                              topHeading={"From 11:00 AM to 10:00 PM"}
                               middleHeading={"Order Online"}
                         />
                         <Swiper
