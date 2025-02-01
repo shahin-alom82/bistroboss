@@ -15,10 +15,10 @@ export const nav = [
       },
       {
             path: "/menu",
-            title: "Menu"
+            title: " Our Menu"
       },
       {
             path: "/shop",
-            title: "Shop"
+            title: "Our Shop"
       }
 ]

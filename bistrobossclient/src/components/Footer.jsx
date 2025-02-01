@@ -1,10 +1,9 @@
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import { FaArrowRightLong } from "react-icons/fa6";
 import Container from "./Container";
 
 const Footer = () => {
       return (
-            <div className="text-white">
+            <div className="text-white mt-10">
                   <Container>
                         <div className="flex flex-col lg:flex-row">
                               {/* ---------- Left Side ------------ */}
@@ -27,15 +26,11 @@ const Footer = () => {
                                                 <FaTwitter size={20} />
                                                 <FaInstagram size={20} />
                                           </div>
-                                          {/* <div className="mx-auto w-[300px] flex items-center relative">
-                                          <input className="mt-4 rounded-full w-[300px] bg-slate-400 py-2 outline-none px-4" type="text" />
-                                          <span className="mt-4 bg-orange-300 py-3 px-6 absolute right-0 rounded-full"><FaArrowRightLong/></span>
-                                    </div> */}
                                     </div>
                               </div>
                         </div>
                         {/* -------- Copy Right ---------- */}
-                        <h1 className="bg-black text-sm text-center py-2 tracking-wide">Copyright © CulinaryCloud. All rights reserved.</h1>
+                        <h1 className="bg-black text-xs lg:text-sm text-center py-2 tracking-wide">Copyright © CulinaryCloud. All rights reserved.</h1>
                   </Container>
             </div>
       );
