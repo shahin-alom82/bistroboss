@@ -4,7 +4,8 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Route/Home.jsx'
 import RootLayout from './Route/RootLayout.jsx'
-
+import OurMenu from './components/OurMenu/OurMenu.jsx'
+import { HelmetProvider } from 'react-helmet-async';
 const router = createBrowserRouter([{
   path: "/",
   element: <RootLayout />,
@@ -12,12 +13,18 @@ const router = createBrowserRouter([{
     {
       path: "/",
       element: <Home />
+    },
+    {
+      path: "/menu",
+      element: <OurMenu />
     }
   ]
 }])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </StrictMode>,
 )
