@@ -22,3 +22,11 @@ export const nav = [
       },
 
 ]
+const orderNav = [
+      { title: "Dessert", path: "/dessert" },
+      { title: "Soup", path: "/soup" },
+      { title: "Pizza", path: "/pizza" },
+      { title: "Offered", path: "/offered" },
+      { title: "Popular", path: "/popular" }
+]
+export default orderNav;
