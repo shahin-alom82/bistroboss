@@ -2,9 +2,8 @@ import { Helmet } from "react-helmet-async";
 import useMenu from "../../contants/Hoks";
 import Container from "../Container";
 import Cover from "../Cover";
-import SectionTitle from "../../contants/SectionTitle";
 import menuCover from "../../assets/menu/banner3.jpg"
-import desserts from "../../assets/menu/dessert-bg.jpeg"
+// import desserts from "../../assets/menu/dessert-bg.jpeg"
 import MenuCategory from "./MenuCategory";
 
 const OurMenu = () => {

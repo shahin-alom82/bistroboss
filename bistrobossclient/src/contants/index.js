@@ -9,7 +9,7 @@ export const nav = [
             title: " Our Menu"
       },
       {
-            path: "/shop",
+            path: "/order",
             title: "Our Shop"
       },
       {
